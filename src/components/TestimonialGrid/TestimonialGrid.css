@@ -1,0 +1,108 @@
+  .testimonial-grid-section {
+  background-color: #f8f9fa;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.testimonial-grid-title {
+  font-family: 'Georgia', serif;
+  font-size: 2.5rem;
+  color: #2d3748;
+  margin-bottom: 60px;
+}
+
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto 60px;
+}
+
+.testimonial-card {
+  background-color: #fff;
+  padding: 20px 40px;
+  text-align: left;
+  box-shadow: 0 6px 8px -1px rgba(22, 22, 22, 0.1), 0 5px 6px -1px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.card-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.card-quote-icon {
+  position: absolute;
+  top: -10px;
+  left: 40px;
+  font-size: 2.5rem;
+  color: #3b82f6;
+  font-family: 'Georgia', serif;
+}
+
+.card-company {
+  font-weight: bold;
+  font-size: 1.125rem;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card-quote {
+  color: #4a5568;
+  line-height: 1.6;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.card-author strong {
+  display: block;
+  font-weight: bold;
+}
+
+.card-author span {
+  color: #718096;
+  font-size: 0.875rem;
+}
+
+.see-all-btn {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.see-all-btn:hover {
+  background-color: #2563eb;
+}
+
+@media (max-width: 992px) {
+  .testimonial-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial-grid {
+    grid-template-columns: 1fr;
+  }
+} 

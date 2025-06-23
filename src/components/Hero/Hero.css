@@ -1,0 +1,145 @@
+/* Hero Component Styles */ 
+.hero-section {
+  background-color: #16202a;
+  color: #e5edfa;
+  padding: 120px 200px 15vw 200px; /* Top, R/L, Bottom padding. Bottom padding creates space for the angle */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+  position: relative; /* Needed for clip-path to work well in all contexts */
+}
+
+.hero-content {
+  max-width: 520px;
+  margin-left: 20px;
+}
+
+.hero-content h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0 0 24px 0;
+}
+
+.hero-content p {
+  font-size: 18px;
+  color: #a0aec0;
+  margin: 0 0 40px 0px;
+  text-align: left;
+  max-width: 480px;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 16px;
+}
+
+.btn {
+  padding: 12px 20px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;  
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-secondary {
+  background-color: #334155;
+  color: #e5edfa;
+}
+
+.btn-secondary:hover {
+  background-color: #475569;
+}
+
+.hero-image-wrapper {
+  position: relative;
+  max-width: 550px;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.play-button:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 40px 20vw 40px;
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
+  }
+
+  .hero-content {
+    max-width: 100%;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .hero-image-wrapper {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 48px;
+  }
+
+  .hero-content p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    padding: 60px 20px 25vw 20px;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+  }
+} 

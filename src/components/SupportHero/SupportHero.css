@@ -1,0 +1,55 @@
+.support-hero {
+  background-color: #1a202c;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.support-hero-content h1 {
+  font-family: 'Georgia', serif;
+  font-size: 3.5rem;
+  color: #fff;
+  font-weight: 500;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  line-height: 1.2;
+}
+
+.search-form {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  color: #a0aec0;
+}
+
+.search-form input {
+  width: 100%;
+  padding: 15px 20px 15px 50px;
+  border: 1px solid #4a5568;
+  background-color: #2d3748;
+  border-radius: 10px;  
+  color: #fff;
+  font-size: 1rem;
+}
+
+.search-form input::placeholder {
+  color: #a0aec0;
+}
+
+.search-form input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
+}
+
+@media (max-width: 768px) {
+  .support-hero-content h1 {
+    font-size: 2.5rem;
+  }
+} 

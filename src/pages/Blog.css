@@ -1,0 +1,138 @@
+/* No custom styles needed for the blog page wrapper itself */
+/* The Newsletter component handles its own styling */
+
+.blog-page {
+    padding: 80px 0;
+}
+
+.blog-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.blog-header h1 {
+    font-family: 'Georgia', serif;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+
+.blog-header p {
+    font-size: 1.1rem;
+    color: #6b7280;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.blog-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.post-card {
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.post-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+.post-image {
+    height: 200px;
+    background-color: #e5e7eb;
+}
+
+.post-content {
+    padding: 25px;
+}
+
+.post-content h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.post-content p {
+    color: #6b7280;
+    margin-bottom: 20px;
+}
+
+.post-meta {
+    font-size: 0.9rem;
+    color: #9ca3af;
+}
+
+.blog-container h2 {
+  text-align: left;
+  font-family: 'Georgia', serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.cta-section-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 1200px;
+  padding: 60px 20px;
+  background-color: #f9fafb;
+  border-radius: 16px;
+}
+
+.blog-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.blog-header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.blog-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #6b7280;
+  font-weight: 500;
+  padding: 10px;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #1d4ed8;
+  border-bottom-color: #1d4ed8;
+}
+
+.search-icon {
+  cursor: pointer;
+}
+
+.latest-posts {
+  margin-top: 40px;
+}
+
+.latest-posts h2 {
+  font-family: 'Georgia', serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}

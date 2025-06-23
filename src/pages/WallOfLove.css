@@ -1,0 +1,108 @@
+.page-container {
+  padding: 100px 40px;
+  text-align: center;
+  color: #333;
+  min-height: 60vh;
+}
+
+.wall-of-love-section {
+  background-color: #101c2c; /* A dark navy blue, sampled from the image */
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+  min-height: auto; /* Override previous min-height */
+}
+
+.wall-of-love-content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.wall-of-love-section h2 {
+  font-family: 'Times New Roman', Times, serif; /* A classic serif font */
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.wall-of-love-section p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.125rem;
+  color: #bdc5d1;
+  margin-bottom: 3rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  line-height: 0; /* Removes extra space below the image */
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 72px;
+  height: 72px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  color: #101c2c;
+}
+
+.play-button:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+  background-color: white;
+}
+
+.play-button svg {
+  width: 32px;
+  height: 32px;
+  transform: translateX(2px);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .wall-of-love-section {
+    padding: 60px 0;
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
+  }
+
+  .wall-of-love-section h2 {
+    font-size: 2.5rem;
+  }
+
+  .wall-of-love-section p {
+    font-size: 1rem;
+  }
+
+  .play-button {
+    width: 60px;
+    height: 60px;
+  }
+
+  .play-button svg {
+    width: 24px;
+    height: 24px;
+  }
+} 

@@ -1,0 +1,54 @@
+.not-found-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+.not-found-content {
+    text-align: center;
+}
+
+.not-found-title {
+    font-family: 'Georgia', serif;
+    font-size: 4rem;
+    color: #111827;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.oops-icon {
+    position: absolute;
+    top: -10px;
+    right: -50px;
+    width: 60px;
+    height: 60px;
+    transform: rotate(15deg);
+}
+
+.not-found-text {
+    font-size: 1.2rem;
+    color: #6b7280;
+    margin-bottom: 40px;
+}
+
+.back-home-button {
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: #3b82f6;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.back-home-button:hover {
+    background-color: #2563eb;
+    transform: translateY(-2px);
+} 

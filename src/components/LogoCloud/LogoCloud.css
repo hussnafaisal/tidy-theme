@@ -1,0 +1,49 @@
+.logo-cloud-section {
+  padding: 50px 20px;
+  background-color: #fff;
+  border-top: 1px solid #e2e8f0;
+}
+
+.logo-cloud-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 60px; /* Increased gap for more space */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@keyframes slideUpFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.logo-item {
+  color: #a0aec0;
+  animation-name: slideUpFadeIn;
+  animation-duration: 0.6s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+  animation-delay: calc(0.08s * var(--i));
+  font-size: 2.5rem; /* Increased size for icons */
+}
+
+/* Specific font styling to better match the image */
+.logo-tinder {
+  font-family: 'Gothic A1', sans-serif; /* A font similar to Tinder's logo */
+}
+
+.logo-airbnb {
+  font-weight: 600; /* Airbnb logo is a bit bolder */
+}
+
+.logo-amazon {
+  font-family: 'Amazon Ember', sans-serif; /* Amazon's official font, with a fallback */
+} 
