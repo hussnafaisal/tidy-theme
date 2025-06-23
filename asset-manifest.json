@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/tidy/static/css/main.e0e4c1b7.css",
-    "main.js": "/tidy/static/js/main.424710e6.js",
-    "static/js/453.31ca3b74.chunk.js": "/tidy/static/js/453.31ca3b74.chunk.js",
-    "static/media/target.png": "/tidy/static/media/target.b5331fbaa4dfeb3fb150.png",
-    "static/media/wof-hero.jpg": "/tidy/static/media/wof-hero.c7a458148236b3c3913f.jpg",
-    "static/media/customers-01.jpg": "/tidy/static/media/customers-01.ff0c6cfa04b2c7cee917.jpg",
-    "static/media/blog-post-01.jpg": "/tidy/static/media/blog-post-01.2e58da25a0dbb1729760.jpg",
-    "static/media/customers-03.jpg": "/tidy/static/media/customers-03.90a25a26656af4197682.jpg",
-    "static/media/customers-02.jpg": "/tidy/static/media/customers-02.0935cdd7d94766af89dd.jpg",
-    "index.html": "/tidy/index.html",
-    "main.e0e4c1b7.css.map": "/tidy/static/css/main.e0e4c1b7.css.map",
-    "main.424710e6.js.map": "/tidy/static/js/main.424710e6.js.map",
-    "453.31ca3b74.chunk.js.map": "/tidy/static/js/453.31ca3b74.chunk.js.map"
+    "main.css": "/tidy-theme/static/css/main.e0e4c1b7.css",
+    "main.js": "/tidy-theme/static/js/main.735df8d4.js",
+    "static/js/453.31ca3b74.chunk.js": "/tidy-theme/static/js/453.31ca3b74.chunk.js",
+    "static/media/target.png": "/tidy-theme/static/media/target.b5331fbaa4dfeb3fb150.png",
+    "static/media/wof-hero.jpg": "/tidy-theme/static/media/wof-hero.c7a458148236b3c3913f.jpg",
+    "static/media/customers-01.jpg": "/tidy-theme/static/media/customers-01.ff0c6cfa04b2c7cee917.jpg",
+    "static/media/blog-post-01.jpg": "/tidy-theme/static/media/blog-post-01.2e58da25a0dbb1729760.jpg",
+    "static/media/customers-03.jpg": "/tidy-theme/static/media/customers-03.90a25a26656af4197682.jpg",
+    "static/media/customers-02.jpg": "/tidy-theme/static/media/customers-02.0935cdd7d94766af89dd.jpg",
+    "index.html": "/tidy-theme/index.html",
+    "main.e0e4c1b7.css.map": "/tidy-theme/static/css/main.e0e4c1b7.css.map",
+    "main.735df8d4.js.map": "/tidy-theme/static/js/main.735df8d4.js.map",
+    "453.31ca3b74.chunk.js.map": "/tidy-theme/static/js/453.31ca3b74.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e0e4c1b7.css",
-    "static/js/main.424710e6.js"
+    "static/js/main.735df8d4.js"
   ]
 }
