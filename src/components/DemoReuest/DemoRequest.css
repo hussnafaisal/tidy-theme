@@ -118,3 +118,68 @@ form input, form select {
   width: 40px;
   height: 40px;
 }
+
+@media (max-width: 900px) {
+  .demo-container {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+  }
+  .demo-left, .demo-right {
+    width: 100%;
+    padding: 32px 12px;
+    min-height: unset;
+  }
+  .demo-right {
+    min-height: 220px;
+    padding: 24px 8px;
+  }
+  .testimonial {
+    max-width: 98vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .demo-container {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+  }
+  .demo-left, .demo-right {
+    width: 100%;
+    padding: 16px 4px;
+    min-height: unset;
+  }
+  .brand-logo {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+  }
+  h2, .testimonial h2 {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+  }
+  form input, form select {
+    padding: 8px;
+    font-size: 0.95rem;
+  }
+  .row {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .submit-btn {
+    padding: 8px;
+    font-size: 0.95rem;
+  }
+  .testimonial {
+    max-width: 98vw;
+    padding: 8px 2px;
+  }
+  .testimonial p {
+    font-size: 0.95rem;
+    margin-bottom: 12px;
+  }
+  .testimonial .author img {
+    width: 28px;
+    height: 28px;
+  }
+}

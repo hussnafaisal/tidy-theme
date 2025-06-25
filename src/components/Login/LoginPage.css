@@ -142,3 +142,64 @@ form input {
   width: 40px;
   height: 40px;
 }
+
+@media (max-width: 900px) {
+  .login-container {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+  }
+  .login-left, .login-right {
+    width: 100%;
+    padding: 32px 12px;
+    min-height: unset;
+  }
+  .login-right {
+    min-height: 220px;
+    padding: 24px 8px;
+  }
+  .testimonial {
+    max-width: 98vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .login-container {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+  }
+  .login-left, .login-right {
+    width: 100%;
+    padding: 16px 4px;
+    min-height: unset;
+  }
+  .brand-logo {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+  }
+  h2, .testimonial h2 {
+    font-size: 1.1rem;
+    margin-bottom: 12px;
+  }
+  .google-btn, .facebook-btn, .sign-in-btn {
+    padding: 8px;
+    font-size: 0.95rem;
+  }
+  form input {
+    padding: 8px;
+    font-size: 0.95rem;
+  }
+  .testimonial {
+    max-width: 98vw;
+    padding: 8px 2px;
+  }
+  .testimonial p {
+    font-size: 0.95rem;
+    margin-bottom: 12px;
+  }
+  .testimonial .author img {
+    width: 28px;
+    height: 28px;
+  }
+}

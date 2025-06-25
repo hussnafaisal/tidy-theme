@@ -1,4 +1,5 @@
-  import React from 'react';
+import './HomePage.css';
+import React from 'react';
 import Hero from '../components/Hero/Hero';
 import TabsSection from '../components/TabsSection/TabsSection';
 import FeatureHighlight from '../components/FeatureHighlight/FeatureHighlight';

@@ -1,55 +1,101 @@
+/* 1. Apply border-box to everything to avoid overflow */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Prevent horizontal scroll */
+html, body {
+  margin: 0;
+  padding: 0;
+  width:100%;
+  overflow-x: hidden;
+  background: #1a202c;
+}
+
+/* 3. Hero Section */
 .support-hero {
   background-color: #1a202c;
-  padding: 80px 20px;
+  padding: 60px 16px;
   text-align: center;
 }
 
+/* 4. Responsive Heading */
 .support-hero-content h1 {
   font-family: 'Georgia', serif;
-  font-size: 3.5rem;
+  font-size: clamp(1.5rem, 6vw, 3.5rem); /* Resizes with screen */
   color: #fff;
   font-weight: 500;
-  max-width: 700px;
-  margin: 0 auto 40px;
-  line-height: 1.2;
+  margin: 0 auto 32px;
+  max-width: 100%;
+  line-height: 1.3;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  padding: 0 12px;
 }
 
+/* 5. Search Form Container */
 .search-form {
   position: relative;
-  max-width: 500px;
+  width: 100%;
+  max-width: 480px;
   margin: 0 auto;
+  padding: 0 12px;
 }
 
+/* 6. Icon inside input */
 .search-icon {
   position: absolute;
   top: 50%;
-  left: 20px;
+  left: 16px;
   transform: translateY(-50%);
   color: #a0aec0;
+  font-size: 1rem;
+  pointer-events: none;
 }
 
+/* 7. Input Styling */
 .search-form input {
   width: 100%;
-  padding: 15px 20px 15px 50px;
+  padding: 14px 14px 14px 44px;
   border: 1px solid #4a5568;
   background-color: #2d3748;
-  border-radius: 10px;  
+  border-radius: 8px;
   color: #fff;
   font-size: 1rem;
 }
 
+/* 8. Placeholder Color */
 .search-form input::placeholder {
   color: #a0aec0;
 }
 
+/* 9. Input Focus */
 .search-form input:focus {
   outline: none;
   border-color: #3b82f6;
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
 }
 
-@media (max-width: 768px) {
+/* 10. Extra Safe Styles for Smaller Devices */
+@media (max-width: 400px) {
   .support-hero-content h1 {
-    font-size: 2.5rem;
+    font-size: 1.2rem;
+    padding: 0 8px;
   }
-} 
+
+  .search-form {
+    padding: 0 8px;
+  }
+
+  .search-form input {
+    font-size: 0.9rem;
+    padding: 12px 12px 12px 36px;
+  }
+
+  .search-icon {
+    left: 10px;
+    font-size: 0.85rem;
+  }
+}

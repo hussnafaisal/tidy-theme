@@ -127,5 +127,11 @@ border: 3px solid #D1D5DB;
   .testimonial-container {
     grid-template-columns: 1fr;
     gap: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  .testimonial-image-wrapper {
+    order: -1;
+    margin-bottom: 20px;
   }
 } 

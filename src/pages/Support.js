@@ -5,10 +5,10 @@ import ArticleList from '../components/ArticleList/ArticleList';
 
 const supportPageStyles = `
 .article-list-container {
-  max-width: 100%;
+  max-width: 80%;
   position: relative;
   z-index: 10;
-  margin: 40px 100px;  
+  margin: 60px auto;   
   display: flex;  
   align-items: center;  
   flex-direction: column;
