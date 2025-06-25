@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tidy-theme/static/css/main.e0e4c1b7.css",
-    "main.js": "/tidy-theme/static/js/main.7dee5cbf.js",
+    "main.css": "/tidy-theme/static/css/main.ef772d47.css",
+    "main.js": "/tidy-theme/static/js/main.632ac271.js",
     "static/js/453.31ca3b74.chunk.js": "/tidy-theme/static/js/453.31ca3b74.chunk.js",
     "static/media/target.png": "/tidy-theme/static/media/target.b5331fbaa4dfeb3fb150.png",
     "static/media/wof-hero.jpg": "/tidy-theme/static/media/wof-hero.c7a458148236b3c3913f.jpg",
@@ -10,12 +10,12 @@
     "static/media/customers-03.jpg": "/tidy-theme/static/media/customers-03.90a25a26656af4197682.jpg",
     "static/media/customers-02.jpg": "/tidy-theme/static/media/customers-02.0935cdd7d94766af89dd.jpg",
     "index.html": "/tidy-theme/index.html",
-    "main.e0e4c1b7.css.map": "/tidy-theme/static/css/main.e0e4c1b7.css.map",
-    "main.7dee5cbf.js.map": "/tidy-theme/static/js/main.7dee5cbf.js.map",
+    "main.ef772d47.css.map": "/tidy-theme/static/css/main.ef772d47.css.map",
+    "main.632ac271.js.map": "/tidy-theme/static/js/main.632ac271.js.map",
     "453.31ca3b74.chunk.js.map": "/tidy-theme/static/js/453.31ca3b74.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0e4c1b7.css",
-    "static/js/main.7dee5cbf.js"
+    "static/css/main.ef772d47.css",
+    "static/js/main.632ac271.js"
   ]
 }
