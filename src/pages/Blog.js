@@ -105,11 +105,11 @@ const Blog = () => {
     <div className="blog-container">
       <header className="blog-header-nav">
         <nav className="blog-nav">
-          <a href="#" className="nav-link active">Latest</a>
-          <a href="#" className="nav-link">Popular</a>
-          <a href="#" className="nav-link">Tips & Tricks</a>
-          <a href="#" className="nav-link">Product</a>
-          <a href="#" className="nav-link">Product news</a>
+          <a href="/" className="nav-link active">Latest</a>
+          <a href="/" className="nav-link">Popular</a>
+          <a href="/" className="nav-link">Tips & Tricks</a>
+          <a href="/" className="nav-link">Product</a>
+          <a href="/" className="nav-link">Product news</a>
         </nav>
         <div className="search-icon">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
